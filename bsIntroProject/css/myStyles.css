@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#masthead{
+	
+	background-image: url("../images/mountains.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	
+}
+
+#portfolio{
+	
+	background-color: deepskyblue;
+}
+
+#about{
+/*	background-color: deepskyblue;*/
+	background-image: url("../images/Abstract-blue_0.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+#footer{
+	background-color: #2C3E50;
+	color: white;
+}
