@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+.alternate{
+	background-color: #9BC3E0;
+}
+.container{
+	margin: auto;
+	padding: 20px;
+}
+.bg-custom1{
+	background-color: #3F86C1;
+}
+.text-color{
+	color: #BAD1E1;
+	text-shadow: 0px 0px 2px black;
+}
+.text-color2{
+	color: #BAD1E1;
+	text-shadow: 0px 0px 4px black;
+}
+
+/*
+.img1{
+	margin: 0 20px;
+	padding: 0;
+}
+.img2{
+	margin: 0;
+	padding: 0;
+}
+*/
+/*.tester{
+	background-color:rgba(255,255,255,0.50);
+}*/
+
+#homeMasthead{
+	background-image: url("../images/riverMountain.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 20vh 10vh 0vh 5vh;
+}
+#geoMasthead{
+	background-image: url("../images/riverForest.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 20vh 10vh 0vh 5vh;
+}
+#pplMasthead{
+	background-image: url("../images/jasper.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 20vh 10vh 0vh 5vh;
+}
+#ecoMasthead{
+	background-image: url("../images/tourism.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 20vh 10vh 0vh 5vh;
+}
+#attrMasthead{
+	background-image: url("../images/camera.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 20vh 10vh 0vh 5vh;
+}
+#refsMasthead{
+	background-image: url("../images/riverForest.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	height: 50vh;
+	padding: 25vh 10vh 0vh 5vh;
+}
+
+
+header{
+	overflow: hidden;
+}
+header div{
+	padding: 15vh 0 0 0;
+	font-family: 'Marcellus', serif;
+}
+
+section{
+	margin: auto 50;
+	background-color: #E5FFFF;
+	font-family: 'Merriweather', serif;
+	
+}
+
+footer{
+	background-color: /*#3AE0A4*/ #3F86C1;
+	font-family: 'Merriweather', serif;
+	
+	margin: auto;
+	padding: 20px 40px 10px 20px;
+}
+
+nav{
+	background-color: /*#42A8FC*/#3F86C1;
+	color: #343A40;
+	font-family: 'Marcellus', serif;
+}
+
+p{
+	margin: 20px;
+}
+h1 {
+  text-shadow: 2px 1px 2px #BAD1E1;
+}
+h4 {
+  text-shadow: 0px 0px 4px white;
+}
+
+
+	/* When the screen is larger than this, do this */
+@media only screen and (min-width: 576px) {
+	
+	.img1{
+		margin: 0;
+		padding: 0;
+	}
+	.img2{
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) {
+	
+	.img1{
+		float: left;
+		margin: 0 10px 10px 0;
+		padding: 20px 0 0 0;
+	}
+	.img2{
+		float: right;
+		margin: 0 0 10px 10px;
+		padding: 20px 0 0 0;
+	}
+	.img3{
+		margin: 0 0 10px 10px;
+		padding: 20px 0 0 0;
+	}
+	
+	#homeMasthead{
+	height: 80vh;
+	padding: 50vh 10vh 0vh 5vh;
+	}
+	#geoMasthead{
+	height: 80vh;
+	padding: 50vh 10vh 0vh 5vh;
+	}
+	#pplMasthead{
+	height: 80vh;
+	padding: 50vh 10vh 0vh 5vh;
+	}
+	#ecoMasthead{
+	height: 80vh;
+	padding: 50vh 10vh 0vh 5vh;
+	}
+	#attrMasthead{
+	height: 80vh;
+	padding: 50vh 10vh 0vh 5vh;
+	}
+/*
+	.text1{
+		margin: 20px;
+	}
+	.text2{
+		float:left;
+		margin: 20px;
+	}
+*/	
+/*
+	p{
+	margin: 0 0px;
+}
+*/
+
+	
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+	.img3{
+		float: left;
+		margin: 0 0 10px 10px;
+		padding: 20px 0 0 0;
+	}
+
+}
