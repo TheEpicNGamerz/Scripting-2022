@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form-control{
+	max-width: 100%;
+}
+.btn{
+	max-width: 100%;
+}
+.LRS{
+	margin: 20px;
+}
+.nonp{
+	background-color: rgba(67,213,213,1.00);
+	max-width: 75%;
+}
+
+header{
+	margin: auto;
+	padding: 0;
+}
+h1{
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	background-color: rgba(0,84,110,1.00);
+	color: white;
+	margin: auto;
+	padding: 20px;
+}
+h2{
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	background-color: /*rgba(109,92,211,1.00)*/ rgba(0,84,110,1.00);
+	padding: 20px 0;
+	color: yellow;
+	margin: auto;
+}
+h3{
+	background-color: darkcyan;
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+p{
+	background-color: darkcyan;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+section{
+	background-color: rgba(67,213,213,1.00);
+	overflow: hidden;
+	margin: auto;
+}
+body{
+	background-color: rgba(67,213,213,1.00);
+}
+footer{
+	background-color: darkcyan;
+	margin: auto;
+	padding: 40px;
+	text-align: center;
+}
+
+a:link, a:visited,a:hover{
+	color: black;
+}
+a:active{
+	color: #2F2F2F;
+}
+
+#builder{
+    position: relative;
+    height: 672px;
+}
+#background, #body, #face, #hair, #leggings, #shirt{
+    position:absolute;
+}
+

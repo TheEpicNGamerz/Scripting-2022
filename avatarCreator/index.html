@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avatar Creator</title>
+	
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link href="css/design.css" rel="stylesheet" type="text/css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+</head>
+
+<body>
+	
+	<header><h1>Avatar Creator</h1></header>
+	
+	<p><b>Welcome to the Avatar Creator! Build your own customized character using the buttons on the left!</b></p>
+	
+	<section>
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-md-6">
+					<label for="name"><b>Name:</b></label>
+					<div class="form-group input-group alternate">
+						
+						<input class="form-control" type="text" id="name"> 
+						<div class="input-group-append">
+							<button class="btn btn-dark" type="submit" onClick="setName();">Submit</button>
+		  				</div>
+					</div>
+					
+					
+					
+					<div>
+						<p><b>Face</b></p>
+						<img src="images/TH_blank.png" alt="Face" onClick="setFace('blank_multiuse.png');">
+						<img src="images/TH_face1.png" alt="Face" onClick="setFace('face_1.png');">
+						<img src="images/TH_face2.png" alt="Face" onClick="setFace('face_2.png');">
+					</div>
+					<div>
+						<p><b>Hair</b></p>
+						<img src="images/TH_blank.png" alt="Hair" onClick="setHair('blank_multiuse.png');">
+						<img src="images/TH_hair1.png" alt="Hair" onClick="setHair('hair_brown.png');">
+						<img src="images/TH_hair2.png" alt="Hair" onClick="setHair('hair_yellow.png');">
+					</div>
+					<div>
+						<p><b>Shirt</b></p>
+						<img src="images/TH_blank.png" alt="Torso" onClick="setShirt('blank_multiuse.png');">
+						<img src="images/TH_shirt1.png" alt="Torso" onClick="setShirt('shirt_1.png');">
+						<img src="images/TH_shirt2.png" alt="Torso" onClick="setShirt('shirt_2.png');">
+					</div>
+					<div>
+						<p><b>Leggings</b></p>
+						<img src="images/TH_blank.png" alt="Pants" onClick="setLegs('blank_multiuse.png');">
+						<img src="images/TH_leg1.png" alt="Pants" onClick="setLegs('leg_blue.png');">
+						<img src="images/TH_leg2.png" alt="Pants" onClick="setLegs('leg_purple.png');">
+					</div>
+					<div>
+						<p><b>Background</b></p>
+						<img src="images/TH_blank.png" alt="Color" onClick="setBack('blank_multiuse.png');">
+						<img src="images/TH_green.png" alt="Color" onClick="setBack('ba_green.png');">
+						<img src="images/TH_purple.png" alt="Color" onClick="setBack('ba_purple.png');">
+					</div>
+					
+				
+				</div>
+				<div class="col-md-6">
+					<h3>Welcome...</h3>
+					<div id="output"></div>
+					
+					
+					
+					<div id="builder">
+                        
+						<div id="background"></div>
+                        <div id="body"><img class="img-fluid" src="images/base.png" alt="body"></div>
+						<div id="hair"></div>
+						<div id="face"></div>
+						<div id="leggings"></div>
+						<div id="shirt"></div>
+
+                    </div>
+				</div>
+				
+			</div>
+
+		</div>
+		
+		
+		
+					
+	</section>
+	
+	<section class="LRS">
+	
+		<h3>The Learning Reflection Section</h3>
+		<p class="nonp">At the beginning of this semester I was looking forward to most of my classes, but was concerned about coding because I was unsure of how I would use it for my planned career. However, once we started getting into it, I found that I was able to enjoy it. I was able to understand how to create what I wanted, and how it can be used, for advertisement, interactivity, and more. It's also been cool learning different languages, increasing my range of possibilities and uses for this course.</p>
+		<p class="nonp">I'd say my biggest obstacle I overcame was the designing of each webpage. For the Fictional Character assignment I had a couple of design ideas I really liked, but I wasn't a fan of the layout and color scheme I gave it. However I can confidently say that I've gotten better when designing each page. I've taken advantage of Tanya's design class, and have found comfort in relying on pleasing monochromatic color schemes. Although I really like these schemes, I understand the importance of learning and growing, and I look forward to understanding new design styles and elements.</p>
+		<p class="nonp">I'm not sure I would change anything I did this course. I had ups and downs, but they led me here, and I'm fairly happy with where I got to in this course.</p>
+		<p class="nonp">I think I just want to remember something my classmate Dean said, that these courses are learning experiences. It stands out to me because my work doesn't have to be perfect. Even once I'm done with school I'll still be learning. Moving forward I want to retain this mindset, because I have no doubt that it will help me in the future.</p>
+	
+	</section>
+	<footer>
+		
+		
+		<a href="https://theepicngamerz.github.io/Scripting-2022/" target="_blank"><i class="fas fa-home fa-5x"></i></a>
+		<p><b>Noah Heggie</b></p>
+		
+	</footer>
+	
+	<script src="js/swap.js"></script>
+	
+</body>
+</html>
